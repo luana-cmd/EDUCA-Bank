@@ -1,0 +1,60 @@
+header {
+    background-color: #2c79b1;
+    padding: 8px;
+}
+
+header {
+    display: flex;
+    /*dxa a sessão flex*/
+    justify-content: end;
+    /*justifica o conteúdo*/
+}
+
+
+header li a {
+    color: white;
+    /*cor da letra*/
+    text-decoration: none;
+    font: size 10px;
+    /*tamanho da letra*/
+}
+
+
+header li a:hover {
+    /*muda o ngc qndo passa o mouser*/
+    color: black;
+    /*cor p qndo passar o mouse*/
+    transition: 1s;
+    /*transição*/
+}
+
+
+.sessão-01 {
+    padding: 15px;
+    display: flex;
+}
+
+
+.sessão-01 h1 {
+    color: black;
+    /*cor da letra*/
+    font-size: 10px;
+    /*tamanho da letra*/
+}
+
+
+.sessão-01 p {
+    color: black;
+    /*cor da letra*/
+    font-size: 20px;
+    /*tamanho da letra*/
+}
+
+
+.sessão-01 button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
