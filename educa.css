@@ -1,21 +1,39 @@
-header {
-    background-color: #2c79b1;
-    padding: 8px;
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
 header {
+    background-color: rgb(81, 81, 228);
+    padding: 70px;
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul {
     display: flex;
     /*dxa a sessão flex*/
-    justify-content: end;
-    /*justifica o conteúdo*/
+
 }
 
 
-header li a {
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
     color: white;
     /*cor da letra*/
     text-decoration: none;
-    font: size 10px;
+    font-size: 15px;
     /*tamanho da letra*/
 }
 
@@ -29,32 +47,175 @@ header li a:hover {
 }
 
 
-.sessão-01 {
-    padding: 15px;
-    display: flex;
+.sessão-1 {
+    padding: 200px;
+    width: auto;
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
 }
 
 
-.sessão-01 h1 {
+.sessão-1 h1 {
     color: black;
     /*cor da letra*/
-    font-size: 10px;
+    font-size: 50px;
     /*tamanho da letra*/
 }
 
 
-.sessão-01 p {
-    color: black;
-    /*cor da letra*/
-    font-size: 20px;
+.sessão-1 p {
+    font-size: 30px;
     /*tamanho da letra*/
 }
 
 
-.sessão-01 button {
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: transparent;
+.sessão-1 button {
+    padding: 20px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 50px;
+    border-color: rgb(255, 255, 255);
+    color: rgb(35, 149, 214);
+    margin: 30px;
+}
+
+
+.sessão-1 button:hover {
     color: white;
+    transition: 1s;
+    background-color: rgb(17, 165, 175);
+    border-color: white;
+}
+
+
+
+
+.sessão-2 {
+    padding: 180px;
+    background-color: rgb(226, 233, 233);
+    display: flex;
+    justify-content: space-around;
+}
+
+.sessão-2 div img {
+    width: 300px;
+    margin-top: -60px;
+}
+
+.sessão-2 p {
+    font-size: 40px;
+}
+
+.sessão-2 div a button {
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    cursor: pointer;
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+
+.sessão-2 div a button:hover {
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+.sessão-3 {
+    padding: 180px;
+    background-color: rgb(226, 233, 233);
+    justify-content: center;
+}
+
+
+.sessão-3 h2 {
+    font-size: 35px;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.sessão-3 p {
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.sessão-3 button {
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    cursor: pointer;
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+
+.sessão-3 button :hover {
+    color: white;
+    transition: 1s;
+    background-color: aqua;
+    border-color: white;
+}
+
+
+.sessão-3 img {
+    width: 400px;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+.sessão-4 {
+    background-image: url(imagens/img\ cofre\ fundo.jpg);
+    justify-content: center;
+    padding: 270px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.sessão-4 img {
+    width: 300px;
+    margin-right: 150px;
+}
+
+
+.sessão-4 h2 {
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+.sessão-4 p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.sessão-4 h2 span {
+color: rgb(255, 231, 12);
 }
