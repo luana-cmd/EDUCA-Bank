@@ -88,20 +88,30 @@ header li a:hover {
 }
 
 
-.sessão-1 button { /*estilização do butão da primeira sessão*/
-    width: 300px; /*largura do botão*/
-    height: 50px; /*altura do botão*/
-    border-radius: 50px; /*preenchimento da borda*/
-    border-color: rgb(255, 255, 255); /*cor do botão*/
+.sessão-1 button {
+    /*estilização do butão da primeira sessão*/
+    width: 300px;
+    /*largura do botão*/
+    height: 50px;
+    /*altura do botão*/
+    border-radius: 50px;
+    /*preenchimento da borda*/
+    border-color: rgb(255, 255, 255);
+    /*cor do botão*/
     margin: 30px;
 }
 
 
-.sessão-1 button:hover { /*aplicando o hover no botão*/
-    color: white; /*cor da letra*/
-    transition: 1s; /*tempo de transição*/
-    background-color: rgb(17, 165, 175); /*alterando a cor de fundo*/
-    border-color: white; /*cor da letra ao passar o mouse*/
+.sessão-1 button:hover {
+    /*aplicando o hover no botão*/
+    color: white;
+    /*cor da letra*/
+    transition: 1s;
+    /*tempo de transição*/
+    background-color: rgb(17, 165, 175);
+    /*alterando a cor de fundo*/
+    border-color: white;
+    /*cor da letra ao passar o mouse*/
 }
 
 
@@ -112,20 +122,29 @@ header li a:hover {
 /*inicio da sessão-2*/
 
 
-.sessão-2 { /*estilização da sessão-2*/
-    padding: 200px; /*preenchimento da sessão*/
+.sessão-2 {
+    /*estilização da sessão-2*/
+    padding: 200px;
+    /*preenchimento da sessão*/
     background-color: rgb(226, 233, 233);
-    display: flex;  /*tornando a sessão flex*/
-    justify-content: space-evenly; /*alinhamento na horizontal */
-    align-items: center; /*alinhamento da vertical*/
+    display: flex;
+    /*tornando a sessão flex*/
+    justify-content: space-evenly;
+    /*alinhamento na horizontal */
+    align-items: center;
+    /*alinhamento da vertical*/
 }
 
-.sessão-2 div img { /*estilizando a imagem da sessão-2*/
-    width: 300px; /*largura da imagem*/
+.sessão-2 div img {
+    /*estilizando a imagem da sessão-2*/
+    width: 300px;
+    /*largura da imagem*/
     margin-top: -60px;
-    height: auto;  /*altura automatica da imagem*/
-    margin-left: 20px; /**/
-    
+    height: auto;
+    /*altura automatica da imagem*/
+    margin-left: 20px;
+    /**/
+
 }
 
 .sessão-2 p {
@@ -135,19 +154,28 @@ header li a:hover {
 }
 
 .sessão-2 div a button {
-    width: 300px; /*largura do botão*/
-    height: 50px; /*altura do botão*/
-    border-radius: 50px; /*preenchimento da borda*/
-    border-color: rgb(255, 255, 255); /*cor do botão*/
+    width: 300px;
+    /*largura do botão*/
+    height: 50px;
+    /*altura do botão*/
+    border-radius: 50px;
+    /*preenchimento da borda*/
+    border-color: rgb(255, 255, 255);
+    /*cor do botão*/
     margin: 30px;
 }
 
 
-.sessão-2 div a button:hover {  /*aplicando o hover no botão*/
-    color: rgb(255, 255, 255); /*cor da letra*/
-    transition: 1s; /*tempo de transição*/
-    background-color: rgb(0, 0, 0); /*alterando a cor de fundo*/
-    border-color: rgb(255, 255, 255); /*cor da letra ao passar o mouse*/
+.sessão-2 div a button:hover {
+    /*aplicando o hover no botão*/
+    color: rgb(255, 255, 255);
+    /*cor da letra*/
+    transition: 1s;
+    /*tempo de transição*/
+    background-color: rgb(0, 0, 0);
+    /*alterando a cor de fundo*/
+    border-color: rgb(255, 255, 255);
+    /*cor da letra ao passar o mouse*/
 }
 
 /* fim da sessão-2 */
@@ -155,61 +183,95 @@ header li a:hover {
 
 
 .sessão-3 {
-    padding: 180px; /*preenchimento da sessão*/
-    background-color: rgb(226, 233, 233); /*cor de fundo*/
+    padding: 180px;
+    /*preenchimento da sessão*/
+    background-color: rgb(226, 233, 233);
+    /*cor de fundo*/
 }
 
 
-.sessão-3 h2 { /*estilização do subtitulo*/
-    font-size: 35px;  /*tamanho da letra*/
-    color: rgb(0, 0, 0); /*cor da letra*/
-    text-align: center; /*alinhamento ao centro*/
-    margin-top: -140px; /*espaçamento em relação a sessão de cima*/
+.sessão-3 h2 {
+    /*estilização do subtitulo*/
+    font-size: 35px;
+    /*tamanho da letra*/
+    color: rgb(0, 0, 0);
+    /*cor da letra*/
+    text-align: center;
+    /*alinhamento ao centro*/
+    margin-top: -140px;
+    /*espaçamento em relação a sessão de cima*/
 }
 
 
-.sessão-3 p { /*estilização do paragráfo*/
-    font-size: 25px; /*tamanho da letra*/
-    margin-top: 20px; /*margem superior*/
-    color: rgb(0, 0, 0); /*cor da letra*/
-    text-align: center; /*alinhamento ao centro*/
+.sessão-3 p {
+    /*estilização do paragráfo*/
+    font-size: 25px;
+    /*tamanho da letra*/
+    margin-top: 20px;
+    /*margem superior*/
+    color: rgb(0, 0, 0);
+    /*cor da letra*/
+    text-align: center;
+    /*alinhamento ao centro*/
 }
 
 
-.sessão-3 a button { /*estilização do botão*/
-    padding: 20px; /*preenchimento do botão*/
-    width: 300px; /*largura do botão*/
-    height: 50px; /*altura do botão*/
-    border-radius: 50px; /*preenchimento da borda do botão*/
-    border-color: white; /*cor da borda do botão*/
-    color: black; /*cor da letra*/
-    margin-top: 30px; /*margin superior*/
-    margin-bottom: 40px; /* margin inferior*/
-    font-size: 15px; /*tamanho da letra*/
+.sessão-3 a button {
+    /*estilização do botão*/
+    padding: 20px;
+    /*preenchimento do botão*/
+    width: 200px;
+    /*largura do botão*/
+    height: 50px;
+    /*altura do botão*/
+    border-radius: 50px;
+    /*preenchimento da borda do botão*/
+    border-color: white;
+    /*cor da borda do botão*/
+    color: black;
+    /*cor da letra*/
+    margin: 30px;
+    /*margin superior*/
+    margin-bottom: 40px;
+    /* margin inferior*/
+    font-size: 15px;
+    /*tamanho da letra*/
+    cursor: pointer;
 }
 
 
-.sessão-3 a button :hover {
-    color: rgb(255, 255, 255); /*cor da letra*/
-    transition: 1s; /*tempo de transição*/
-    background-color: rgb(0, 0, 0); /*alterando a cor de fundo*/
-    border-color: rgb(255, 255, 255); /*cor da letra ao passar o mouse*/
+.sessão-3 a button:hover {
+    color: rgb(255, 255, 255);
+    /*cor da letra*/
+    transition: 1s;
+    /*tempo de transição*/
+    background-color: rgb(0, 0, 0);
+    /*alterando a cor de fundo*/
+    border-color: rgb(255, 255, 255);
+    /*cor da letra ao passar o mouse*/
 }
 
 
-.line { /*estilização da linha*/
-width: 70px; /*tamanho da linha*/
-margin: 40px auto; /*espaçamento de 40px top e buttom e esquerda e direita automaticas*/ /*qndo clc só um valor no margin, ele ta sendo atribuido para todos os lados*/
+.line {
+    /*estilização da linha*/
+    width: 70px;
+    /*tamanho da linha*/
+    margin: 40px auto;
+    /*espaçamento de 40px top e buttom e esquerda e direita automaticas*/
+    /*qndo clc só um valor no margin, ele ta sendo atribuido para todos os lados*/
 
 }
 
 
-.sessão-3 img { /*estilização da imagem*/
-    text-align: center; /*alinhamento ao centro*/
+.sessão-3 img {
+    /*estilização da imagem*/
+    text-align: center;
+    /*alinhamento ao centro*/
     justify-content: center;
-    width: 700px; 
+    width: 700px;
     margin-top: 200px;
-    margin-left: 200px; /*espaçamento da esquerda*/
+    margin-left: 200px;
+    /*espaçamento da esquerda*/
 
     /*(IREMOS ALTERAR A FORMATAÇÃO DE ALINHAMENTO)*/
 
@@ -219,14 +281,21 @@ margin: 40px auto; /*espaçamento de 40px top e buttom e esquerda e direita auto
 
 
 
+
+
+
 .sessão-4 {
-    background-image: url(imagens/img\ cofre\ fundo.jpg);
-    justify-content: center;
     padding: 200px;
+    background: linear-gradient(180deg, rgba(95, 132, 212, 0.793), 100%, rgb(8, 79, 233) 15%),
+        /**/
+        url(imagens/img\ cofre\ fundo.jpg);
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    text-align: center;
 }
 
 
@@ -237,32 +306,65 @@ margin: 40px auto; /*espaçamento de 40px top e buttom e esquerda e direita auto
 
 
 .sessão-4 h2 {
+    /*estilizando o subtitulo da sessão*/
     color: black;
+    /*cor da letra*/
     font-size: 30px;
-    margin: 10px;
+    /*tamanho da letra*/
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 
 .sessão-4 p {
     font-size: 25px;
     color: rgb(0, 0, 0);
+    margin-left: 25px;
+    font-size: 25px;
 }
 
 .sessão-4 h2 span {
     color: rgb(255, 231, 12);
+    font-weight: 600;
 }
+
+
 
 
 
 
 footer {
-    padding: 150px;
+    padding: 140px;
+    background-color: rgba(20, 15, 15, 0.834);
+    text-align: center;
+
+}
+
+.div.footer01 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div.footer01 a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.div.footer01 a:hover {
+    color: blue;
+    transition: 1s;
 }
 
 footer img {
     width: 200px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
-footer p {
-    font-size: 30px;
+.div.footer01 p {
+    text-align: center ;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
