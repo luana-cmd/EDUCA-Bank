@@ -7,6 +7,8 @@
 
 
 
+/* inicio do header */
+
 header {
     background-color: rgb(81, 81, 228);
     padding: 70px;
@@ -15,14 +17,9 @@ header {
 }
 
 header nav ul {
+    /*estilizando a lista não ordenada do header*/
     display: flex;
-    /*dxa a sessão flex*/
-
-}
-
-
-header nav ul {
-    display: flex;
+    /*dxa a sessão flex, clc os ngc lado a lado*/
 }
 
 header nav ul li {
@@ -33,8 +30,11 @@ header nav ul li a {
     color: white;
     /*cor da letra*/
     text-decoration: none;
+    /*tira o sublinhado*/
     font-size: 15px;
     /*tamanho da letra*/
+    margin-left: 15px;
+    /*espaçamento entre as lista*/
 }
 
 
@@ -46,142 +46,174 @@ header li a:hover {
     /*transição*/
 }
 
+/* fim do header */
+
+
+
+
+
+
+
+
 
 .sessão-1 {
+    /*estilizando a primeira sessão*/
     padding: 200px;
-    width: auto;
+    /*preenchimento da sessão*/
     background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+    /*degrade*/
 }
 
 
 .sessão-1 h1 {
-    color: black;
+    /*título da primeira sessão*/
+    color: rgb(51, 45, 45);
     /*cor da letra*/
-    font-size: 50px;
+    font-size: 40px;
     /*tamanho da letra*/
+    font-weight: 700;
+    /*dxa tipo em negrito*/
 }
 
 
 .sessão-1 p {
+    /*estilizando o paragráfo*/
+    margin-top: 10px;
+    /*espaçamento superior*/
+    margin-bottom: 10px;
+    /*espaçamento inferior*/
     font-size: 30px;
     /*tamanho da letra*/
+
 }
 
 
-.sessão-1 button {
-    padding: 20px;
-    width: 300px;
-    cursor: pointer;
-    border-radius: 50px;
-    border-color: rgb(255, 255, 255);
-    color: rgb(35, 149, 214);
+.sessão-1 button { /*estilização do butão da primeira sessão*/
+    width: 300px; /*largura do botão*/
+    height: 50px; /*altura do botão*/
+    border-radius: 50px; /*preenchimento da borda*/
+    border-color: rgb(255, 255, 255); /*cor do botão*/
     margin: 30px;
 }
 
 
-.sessão-1 button:hover {
-    color: white;
-    transition: 1s;
-    background-color: rgb(17, 165, 175);
-    border-color: white;
+.sessão-1 button:hover { /*aplicando o hover no botão*/
+    color: white; /*cor da letra*/
+    transition: 1s; /*tempo de transição*/
+    background-color: rgb(17, 165, 175); /*alterando a cor de fundo*/
+    border-color: white; /*cor da letra ao passar o mouse*/
 }
 
 
 
 
-.sessão-2 {
-    padding: 180px;
+
+
+/*inicio da sessão-2*/
+
+
+.sessão-2 { /*estilização da sessão-2*/
+    padding: 200px; /*preenchimento da sessão*/
     background-color: rgb(226, 233, 233);
-    display: flex;
-    justify-content: space-around;
+    display: flex;  /*tornando a sessão flex*/
+    justify-content: space-evenly; /*alinhamento na horizontal */
+    align-items: center; /*alinhamento da vertical*/
 }
 
-.sessão-2 div img {
-    width: 300px;
+.sessão-2 div img { /*estilizando a imagem da sessão-2*/
+    width: 300px; /*largura da imagem*/
     margin-top: -60px;
+    height: auto;  /*altura automatica da imagem*/
+    margin-left: 20px; /**/
+    
 }
 
 .sessão-2 p {
     font-size: 40px;
+    font-weight: 500;
+    color: black;
 }
 
 .sessão-2 div a button {
-    padding: 20px;
-    border-radius: 50px;
-    width: 200px;
-    color: rgb(0, 0, 0);
-    margin-top: 30px;
-    cursor: pointer;
-    border-color: rgb(255, 255, 255);
-    margin-bottom: 30px;
-}
-
-
-.sessão-2 div a button:hover {
-    color: rgb(255, 255, 255);
-    transition: 1s;
-    background-color: rgb(0, 0, 0);
-    border-color: rgb(255, 255, 255);
-}
-
-
-
-
-
-
-
-
-
-
-
-.sessão-3 {
-    padding: 180px;
-    background-color: rgb(226, 233, 233);
-    justify-content: center;
-}
-
-
-.sessão-3 h2 {
-    font-size: 35px;
-    margin-top: 15px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-
-
-.sessão-3 p {
-    font-size: 25px;
-    margin-top: 20px;
-    color: rgb(0, 0, 0);
-    text-align: justify;
-}
-
-.sessão-3 button {
-    padding: 20px;
-    border-radius: 50px;
-    width: 200px;
-    color: rgb(0, 0, 0);
-    margin-top: 30px;
-    cursor: pointer;
-    border-color: rgb(255, 255, 255);
-    margin-bottom: 30px;
-}
-
-
-.sessão-3 button :hover {
-    color: white;
-    transition: 1s;
-    background-color: aqua;
-    border-color: white;
-}
-
-
-.sessão-3 img {
-    width: 400px;
+    width: 300px; /*largura do botão*/
+    height: 50px; /*altura do botão*/
+    border-radius: 50px; /*preenchimento da borda*/
+    border-color: rgb(255, 255, 255); /*cor do botão*/
     margin: 30px;
 }
 
 
+.sessão-2 div a button:hover {  /*aplicando o hover no botão*/
+    color: rgb(255, 255, 255); /*cor da letra*/
+    transition: 1s; /*tempo de transição*/
+    background-color: rgb(0, 0, 0); /*alterando a cor de fundo*/
+    border-color: rgb(255, 255, 255); /*cor da letra ao passar o mouse*/
+}
+
+/* fim da sessão-2 */
+
+
+
+.sessão-3 {
+    padding: 180px; /*preenchimento da sessão*/
+    background-color: rgb(226, 233, 233); /*cor de fundo*/
+}
+
+
+.sessão-3 h2 { /*estilização do subtitulo*/
+    font-size: 35px;  /*tamanho da letra*/
+    color: rgb(0, 0, 0); /*cor da letra*/
+    text-align: center; /*alinhamento ao centro*/
+    margin-top: -140px; /*espaçamento em relação a sessão de cima*/
+}
+
+
+.sessão-3 p { /*estilização do paragráfo*/
+    font-size: 25px; /*tamanho da letra*/
+    margin-top: 20px; /*margem superior*/
+    color: rgb(0, 0, 0); /*cor da letra*/
+    text-align: center; /*alinhamento ao centro*/
+}
+
+
+.sessão-3 a button { /*estilização do botão*/
+    padding: 20px; /*preenchimento do botão*/
+    width: 300px; /*largura do botão*/
+    height: 50px; /*altura do botão*/
+    border-radius: 50px; /*preenchimento da borda do botão*/
+    border-color: white; /*cor da borda do botão*/
+    color: black; /*cor da letra*/
+    margin-top: 30px; /*margin superior*/
+    margin-bottom: 40px; /* margin inferior*/
+    font-size: 15px; /*tamanho da letra*/
+}
+
+
+.sessão-3 a button :hover {
+    color: rgb(255, 255, 255); /*cor da letra*/
+    transition: 1s; /*tempo de transição*/
+    background-color: rgb(0, 0, 0); /*alterando a cor de fundo*/
+    border-color: rgb(255, 255, 255); /*cor da letra ao passar o mouse*/
+}
+
+
+.line { /*estilização da linha*/
+width: 70px; /*tamanho da linha*/
+margin: 40px auto; /*espaçamento de 40px top e buttom e esquerda e direita automaticas*/ /*qndo clc só um valor no margin, ele ta sendo atribuido para todos os lados*/
+
+}
+
+
+.sessão-3 img { /*estilização da imagem*/
+    text-align: center; /*alinhamento ao centro*/
+    justify-content: center;
+    width: 700px; 
+    margin-top: 200px;
+    margin-left: 200px; /*espaçamento da esquerda*/
+
+    /*(IREMOS ALTERAR A FORMATAÇÃO DE ALINHAMENTO)*/
+
+}
 
 
 
@@ -190,7 +222,7 @@ header li a:hover {
 .sessão-4 {
     background-image: url(imagens/img\ cofre\ fundo.jpg);
     justify-content: center;
-    padding: 270px;
+    padding: 200px;
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -200,7 +232,7 @@ header li a:hover {
 
 .sessão-4 img {
     width: 300px;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 
@@ -217,5 +249,20 @@ header li a:hover {
 }
 
 .sessão-4 h2 span {
-color: rgb(255, 231, 12);
+    color: rgb(255, 231, 12);
+}
+
+
+
+
+footer {
+    padding: 150px;
+}
+
+footer img {
+    width: 200px;
+}
+
+footer p {
+    font-size: 30px;
 }
