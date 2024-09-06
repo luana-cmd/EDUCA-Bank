@@ -1,16 +1,216 @@
-.flex-container {
+header {
+    background-color: #d2d5af;
+    padding: 50px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: dodgerblue;
+    justify-content: end;
+}
+
+header nav ul {
+    /*estilizando a lista não ordenada do header*/
+    display: flex;
+    /*dxa a sessão flex, clc os ngc lado a lado*/
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    /*cor da letra*/
+    text-decoration: none;
+    /*tira o sublinhado*/
+    font-size: 15px;
+    /*tamanho da letra*/
+    margin-left: 15px;
+    /*espaçamento entre as lista*/
 }
 
 
-.flex-container > div {
-    background-color: azure;
-    width: 100px;
-    margin: 10px;
+header li a:hover {
+    /*muda o ngc qndo passa o mouser*/
+    color: rgb(105, 89, 89);
+    /*cor p qndo passar o mouse*/
+    transition: 1s;
+    /*transição*/
+}
+
+
+
+
+
+
+
+
+
+.sessão-1 {
+    padding: 100px;
+    background-color: grey;
+}
+
+
+.sessão-1 p {
+    margin-top: 10px;
+    /*espaçamento superior*/
+    margin-bottom: 10px;
+    /*espaçamento inferior */
+    font-size: 15px;
+    /*tamanho da letra*/
+}
+
+
+.sessão-1 button {
+    width: 250px;
+    /*largura do botão*/
+    height: 35px;
+    /*altura do botão*/
+    border-radius: 20px;
+    /*preenchimento da borda*/
+    border-color: azure;
+    /*cor do botão*/
+    margin: 20px;
+}
+
+
+.sessão-1 button:hover {
+    color: white;
+    /*cor da letra*/
+    transition: 1s;
+    /*tempo de transição*/
+    background-color: black;
+    /*alterando a cor de fundo*/
+    border-color: white;
+    /*cor da letra ao passar o mouse*/
+}
+
+
+
+
+
+
+.sessão-2 {
+    padding: 100px;
+    /*preenchimento da sessão*/
+    background-color: #a3ab98;
+    /*cor de fundo*/
+    display: flex;
+    /*tornando a sessão flex*/
+    justify-content: space-evenly;
+    /*alinhamento na horizontal */
+    align-items: center;
+    /*alinhamento da vertical*/
+}
+
+.sessão-2 div img {
+    width: 500px;
+    /*largura da imagem*/
+    margin-top: -50px;
+    height: auto;
+    /*altura automatica da imagem*/
+    margin-left: 20px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    /**/
+    justify-content: center;
+    /*justificando o conteúdo na horizontal*/
+    align-items: center;
+    /*alinhando os itens ao centro na vertical*/
+    gap: 15px;
+    /*propriedade utilizada para dar o respiro - espaço entre os elementos*/
+    background-color: #a3ab98;
+    /*cor de fundo*/
+    padding: 100px;
+    /*preenchimento da sessão*/
+}
+
+
+.flex-container>div {
+    background-color: #847b6d;
+    /*cor de fundo da caixa*/
+    width: 200px;
+    /*largura da caixa*/
+    height: 300px;
+    /*altura da caixa*/
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    /*alinhando os itens ao centro na vertical*/
+    padding: 20px;
+    /*preenchimento interno da caixa*/
+    border-radius: 15px;
+    /*arredondamento da borda*/
+}
+
+
+.flex-container>div:hover {
+    transition: 0.8s;
+    /*transição*/
+    box-shadow: 20px 20px 30px;
+    /*sombra externa da caixa primeiro valor: eixo horizontal, segundo valor: eixo vertical, último valor: exposição da sombra*/
+
+    /* transform: translate(10px, 0px); */
+    /*primeiro eixo X horizontal, depois valor do eixo Y vertical*/
+
+    /* transform: rotate(5deg);  */
+    /*aqui trabalhamos com a rotação da caixa*/
+
+    /* transform: scale(1.1, 1.1); */
+    /*trabalha com  a escala de movimentação dos eixos X e Y*/
+
+    /* transform: skew(5deg, 10deg); */
+    /**/
+
+    transition: 0.7s;
+
+    /*1. tranlate ()
+descrição: move um elemento ao longo dos eixos X horizontal Y vertical*/
+
+    /*2. rotate ()
+descrição: relaciona um elemento ao redor do seu ponto central*/
+
+    /*3. scale ()
+descrição: redmensiona um elemento ao longo do eixo X e Y*/
+
+    /*4. skew ()
+descrição: inclina um elemento ao longo do eixo X e Y*/
+
+}
+
+
+footer {
+    padding: 50px;
+    background-color: #d2d5af;
+    text-align: center;
+}
+
+
+
+footer nav ul {
+    display: flex;
+}
+
+footer nav ul li {
+    margin-left: 20px;
+}
+
+footer nav ul li a {
+    color: rgb(0, 0, 0);
+    /*cor da letra*/
+    text-decoration: none;
+    /*tira o sublinhado*/
+    font-size: 15px;
+    /*tamanho da letra*/
+    margin-left: 15px;
+    /*espaçamento entre as lista*/
+}
+
+
+footer li a:hover {
+    /*muda o ngc qndo passa o mouser*/
+    color: rgb(105, 89, 89);
+    /*cor p qndo passar o mouse*/
+    transition: 1s;
+    /*transição*/
 }
