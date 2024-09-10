@@ -27,7 +27,7 @@ header nav ul li a {
 }
 
 
-header li a:hover {
+header li a:hover { 
     /*muda o ngc qndo passa o mouser*/
     color: rgb(105, 89, 89);
     /*cor p qndo passar o mouse*/
