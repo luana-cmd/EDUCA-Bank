@@ -51,6 +51,64 @@ header li a:hover {
 
 
 
+.mobile-menu { /*estilização da caixa mobile quando aberta*/
+    display: none; /*display: nenhum*/
+    position: fixed; /*posiçao fixa na parte direita da página*/
+    top: 0; /*superior em 0 fazendo a caixa encostar no topo*/
+    right: 0; /*direita em 0 fazendo a caixa encostar na direita*/
+    width: 60%; /*largura em porcentagem da caixa*/
+    height: 100%; /*altura de 100% da tela*/
+    background-color: black; /*cor de fundo*/
+    flex-direction: column; /*direção dos itens dentro da caixa*/
+    align-items: center; /*alinhamento na vertical dos itens*/
+    font-size: 1.8rem; /*tamanho da letra dentro da caixa*/
+}
+
+
+.nav-links-mobile { /*lista não ordenada da versão mobile*/
+    display: flex; /*tornando os itens (LISTAS) flexiveis*/
+    flex-direction: column; /*estamos direcionando o posicionamento deassas listas*/
+    text-align: center; /*alinhando o texto ao centro*/
+    gap: 1.2rem; /*espaço entre as listas*/
+    /* width: 0%; zerando a largura podendo retirar essa linha para testar vizualização*/
+    list-style: none; /*estilo de lista desabilitado*/
+    /* padding: 0; preenchimento zerado, podendo também ser retirado para testes*/
+}
+
+
+.nav-links-mobile li { /*listas da versão mobile*/
+    border-bottom: 1px solid #787272; /*borda inferior de cada lista*/
+    padding-bottom: 1.2rem; /*tamanho da borda*/
+}
+
+
+.hamburguer 
+.close { /*estilizando os botões de abertura e fechamento*/
+font-size: 24px; /*tamanho do elemento*/
+background: none; /*removido o background*/
+border: none; /*borda nenhuma*/
+color: white; /*cor do elemento*/
+cursor: pointer; /*cursos habilitado*/
+display: none; /*escondendo os botões*/
+}
+
+
+.close {
+    margin-top: 20px; /*espaçamento superior do x*/
+    margin-right: 20px; /*espaçamento a direita do x*/
+    display: block; /*formatação da imagem em bloco*/
+    align-self: end;  /*alinhamento do botão*/
+}
+
+
+.flex { /*elemento usado no js*/
+    display: flex; /*formando item flexível e vísivel*/
+}
+
+
+
+
+
 
 
 
@@ -365,4 +423,44 @@ footer img {
     text-align: center ;
     color: rgb(0, 0, 0);
     font-size: 20px;
+}
+
+
+
+@media(max-width: 410px){ 
+    #menu-header {
+        display: none;
+    }
+  
+    /* #btn-header button a {
+        display: block;
+        font-family: bold;
+    }
+
+    #btn-header button a p {
+        font-size: 0.8em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    #btn-header button a img {
+    width: 30%;
+    color: aliceblue;
+    height: auto;
+    } */
+
+
+    header img {
+    width: 30px;
+    height: 40px;
+    }
+
+    header h1 {
+        font-size: 1em;
+    }
+    
+
+    header {
+     padding: 5%;   
+    }
 }
